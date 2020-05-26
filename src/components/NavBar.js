@@ -7,13 +7,7 @@ class NavBar extends React.Component {
   render() {
     return (
       <Router>
-        <nav class="navbar navbar-expand-lg nav-bar-light">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand order-md-last" href="https://github.com/jessica-cheng">
-            <img src="/github-logo.svg" width="40" height="40" class="rounded-circle mx-auto d-block" alt="github" />
-          </a>
+        <nav class="navbar navbar-expand">
           <a class="navbar-brand" href="https://www.linkedin.com/in/jessica-cheng-b730ba15a">
             <img src="/linked-in-icon.png" width="40" height="40" class="rounded-circle mx-auto d-block" alt="linkedin" />
           </a>
@@ -29,8 +23,10 @@ class NavBar extends React.Component {
                 <Link to="/contact" class="nav-link">Contact</Link>
               </li>
             </ul>
-
           </div>
+          <a class="navbar-brand pull-right" href="https://github.com/jessica-cheng">
+            <img src="/github-logo.svg" width="40" height="40" class="rounded-circle mx-auto d-block" alt="github" />
+          </a>
         </nav>
 
         <div className="profile-align">

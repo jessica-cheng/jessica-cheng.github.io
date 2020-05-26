@@ -75,3 +75,6 @@
   padding-left:10px;
   padding-right:10px;
 }
+
+.nav-link {color: #fff;}
+.nav-link:hover {color: rgb(0, 204, 255);}

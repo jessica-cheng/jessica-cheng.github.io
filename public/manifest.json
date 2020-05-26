@@ -3,9 +3,9 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "LASky.jpg",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/png"
     },
     {
       "src": "logo192.png",
@@ -16,46 +16,6 @@
       "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x512"
-    },
-    {
-      "src": "animator.jpg",
-      "type": "image/jpg"
-    },
-    {
-      "src": "findabeanpotty.png",
-      "type": "image/png"
-    },
-    {
-      "src": "forbiddenislandrand.jpg",
-      "type": "image/jpg"
-    },
-    {
-      "src": "github-logo.svg",
-      "type": "image/svg"
-    },
-    {
-      "src": "LASky.jpg",
-      "type": "image/jpg"
-    },
-    {
-      "src": "linked-in-icon.png",
-      "type": "image/png"
-    },
-    {
-      "src": "mazeunsolved.jpg",
-      "type": "image/jpg"
-    },
-    {
-      "src": "mbtamap.png",
-      "type": "image/png"
-    },
-    {
-      "src": "me.jpg",
-      "type": "image/jpg"
-    },
-    {
-      "src": "spotifydiscogsanalysis.png",
-      "type": "image/png"
     }
   ],
   "start_url": ".",
