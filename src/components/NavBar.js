@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as HashRouter, Link, Route, Switch } from 'react-router-dom';
+import { HashRouter, Link, Route, Switch } from 'react-router-dom';
 import ProjectCard from './ProjectCard'
 import AboutMe from './AboutMe'
 import Contact from './Contact';
