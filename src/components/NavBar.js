@@ -1,12 +1,12 @@
 import React from 'react';
-import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as HashRouter, Link, Route, Switch } from 'react-router-dom';
 import ProjectCard from './ProjectCard'
 import AboutMe from './AboutMe'
 import Contact from './Contact';
 class NavBar extends React.Component {
   render() {
     return (
-      <Router>
+      <HashRouter basename='/'>
         <nav class="navbar navbar-expand">
           <a class="navbar-brand" href="https://www.linkedin.com/in/jessica-cheng-b730ba15a">
             <img src="/linked-in-icon.png" width="40" height="40" class="rounded-circle mx-auto d-block" alt="linkedin" />
@@ -38,7 +38,7 @@ class NavBar extends React.Component {
             <Route path='/contact' component={Contact} />
           </Switch>
         </div>
-      </Router>
+      </HashRouter>
     );
   }
 }
